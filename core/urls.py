@@ -7,5 +7,5 @@ urlpatterns = patterns('',
     # url(r'^$', 'coffeedapp.views.home', name='home'),
     # url(r'^blog/', include('blog.urls')),
 
-    url(r'^$', corviews.LandingView.as_view())_
+    url(r'^$', corviews.LandingView.as_view())
 )
